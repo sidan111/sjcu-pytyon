@@ -35,7 +35,10 @@ data = list(map(multiple, [1, 2, 3, 4, 5]))
 print(data)
 
 # 최대값 반환
-print(max([1, 2, 3, 4, 5]))
+def new_func():
+    print(max([1, 2, 3, 4, 5]))
+
+new_func()
 # 최소값 반환
 print(min([1, 2, 3, 4, 5]))
 
