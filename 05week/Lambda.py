@@ -24,7 +24,7 @@ print(result)
 print((lambda a, b: a if a%2 == 0 else b)(1,3))
 
 # 람다함수의 활용 예 : 문자열 포맷팅
-print((lambda a, b: '{} + {} = {}'.format(a,a,a+b)) (1,5))
+print((lambda a, b: '{} + {} = {}'.format(a,b,a+b)) (1,5))
 
 # 람다함수의 활용 예: 리스트의 정렬
 data = ['Python Lambda', 'Python', 'Hello World' ]
